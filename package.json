@@ -1,6 +1,6 @@
 {
     "name": "ps-watchdog",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A module that kills the current process and all the children if the event loop is unresponsive",
     "private": true,
     "main": "index.js",
@@ -16,15 +16,15 @@
         "publish": "node -e require('./scripts/publish.js').publish()"
     },
     "dependencies": {
-        "ps-tree": "^1.1.0"
+        "ps-tree": "^1.2.0"
     },
     "devDependencies": {
-        "@types/jest": "^23.1.0",
-        "@types/node": "^10.3.3",
+        "@types/jest": "^23.3.12",
+        "@types/node": "^10.12.18",
         "@types/ps-tree": "^1.1.0",
-        "fs-extra": "^6.0.1",
-        "jest": "^23.1.0",
-        "rimraf": "^2.6.2",
-        "typescript": "^2.9.2"
+        "fs-extra": "^7.0.1",
+        "jest": "^23.6.0",
+        "rimraf": "^2.6.3",
+        "typescript": "^3.2.2"
     }
 }
