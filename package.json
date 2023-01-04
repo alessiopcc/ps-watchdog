@@ -23,7 +23,7 @@
         "@types/node": "^10.12.18",
         "@types/ps-tree": "^1.1.0",
         "fs-extra": "^7.0.1",
-        "jest": "^23.6.0",
+        "jest": "^29.3.1",
         "rimraf": "^2.6.3",
         "typescript": "^3.2.2"
     }
